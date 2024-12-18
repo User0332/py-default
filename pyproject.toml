@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-default"
+version = "1.0.0"
+description = "Uniform Default Values for Python"
+readme = "README.md"
+authors = [{ name = "Carl Furtado", email = "carlzfurtado@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+	"License :: OSI Approved :: MIT License"
+]
+dependencies = []
+requires-python = ">= 3.10"
+
+[project.urls]
+Homepage = "https://github.com/User0332/pydefault"
+
+[tool.setuptools]
+packages = ["pydefault"]
