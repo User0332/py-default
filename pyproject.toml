@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-default"
-version = "1.0.0"
+version = "1.0.1"
 description = "Uniform Default Values for Python"
 readme = "README.md"
 authors = [{ name = "Carl Furtado", email = "carlzfurtado@gmail.com" }]
@@ -16,7 +16,7 @@ dependencies = []
 requires-python = ">= 3.10"
 
 [project.urls]
-Homepage = "https://github.com/User0332/pydefault"
+Homepage = "https://github.com/User0332/py-default"
 
 [tool.setuptools]
 packages = ["pydefault"]
